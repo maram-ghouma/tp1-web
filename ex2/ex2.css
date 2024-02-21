@@ -1,0 +1,28 @@
+body {
+    padding-left: 500px;
+    padding-top: 100px;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  input,
+  select,
+  textarea {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  #word {
+    width: 400px;
+    height:400px;
+    background-color: #dbe5f1;
+
+  }
+  h1{
+    color:rgb(49, 7, 107);
+  }

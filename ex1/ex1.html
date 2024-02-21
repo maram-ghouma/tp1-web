@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+    <h1>Welcome to the number-guessing game</h1>
+    <br>
+    <label for="level">Pick the difficulty: </label>
+    <select id="level" name="list">
+        <option value="easy">Easy</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="hard">Hard</option>
+    </select><br/>
+    <span id="intervalDisplay"></span> <!-- Interval display element -->
+    <input type="text" id="number" placeholder="Write your guess here"/>
+    <button type="button" onclick="startGame()" id="start">Start</button>
+    <button type="button" onclick="f()" id="play" style="display: none;">Play</button>
+    <button type="button" onclick="refreshPage()" id="hiddenButton" style="display: none;">Restart</button>
+    <span id="triesDisplay"></span>
+    <script src="ex1.js"></script>
+</body>
+</html>
+
+
